@@ -1,3 +1,4 @@
+def call(Map params) {
 def qg = "";
 
 def DEPLOY_BRANCH= 'dev';
@@ -10,7 +11,7 @@ def API_URL ="ar-apis-dev.uat.fundflo.ai";
 def BUCKET_NAME ="fundflo-stage-ap-south-1-files";
 def GENERATED_ID = "";
 // @Library('shared-library')_
-def call(Map params) {
+
 pipeline {
   agent any
   // tools {nodejs "node209"}
