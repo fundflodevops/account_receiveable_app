@@ -9,7 +9,7 @@ def DOMAIN_NAME = ".fundflo.ai";
 def API_URL ="ar-apis-dev.uat.fundflo.ai";
 def BUCKET_NAME ="fundflo-stage-ap-south-1-files";
 def GENERATED_ID = "";
-@Library('shared-library')_
+// @Library('shared-library')_
 pipeline {
   agent any
   tools {nodejs "node209"}
