@@ -12,7 +12,7 @@ def GENERATED_ID = "";
 // @Library('shared-library')_
 pipeline {
   agent any
-  tools {nodejs "node209"}
+  // tools {nodejs "node209"}
   options {
     disableConcurrentBuilds()
     timeout(time: 1, unit: 'HOURS')
