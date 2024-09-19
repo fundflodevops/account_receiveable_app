@@ -1,7 +1,7 @@
-def buildRepo1() {
-    pipeline {
-        agent any
-        stages {
+pipeline {
+    agent any
+    stages {
+        def buildRepo1() {
             stage('Build') {
                 steps {
                     echo 'Building from Repo1...'
@@ -11,5 +11,4 @@ def buildRepo1() {
         }
     }
 }
-
 return this
