@@ -1,12 +1,10 @@
-// For Repo 1 Jenkinsfile
-def call(Map params) {
-    pipeline {
-        agent any
-        stages {
-            stage('Test Stage') {
-                steps {
-                    echo "Repo 1 Jenkinsfile Loaded Successfully"
-                }
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building from Repo1...'
+                // Add build steps here
             }
         }
     }
