@@ -1,11 +1,6 @@
 // app/Jenkinsfile
 
 // Define parameters for the pipeline
-def parameters = [
-    string(name: 'ENVIRONMENT', defaultValue: 'dev', description: 'Target environment (e.g., dev, staging, production)'),
-    booleanParam(name: 'RUN_TESTS', defaultValue: true, description: 'Whether to run tests'),
-    choice(name: 'DEPLOY_TYPE', choices: ['full', 'incremental'], description: 'Type of deployment')
-]
 
 def runPipeline() {
     node {
