@@ -17,7 +17,7 @@ def runPipeline() {
             if (runTests) {
                 echo 'Running tests...'
             } else {
-                echo 'Skipping tests...'
+                echo 'Skipping tests....'
             }
         }
         
